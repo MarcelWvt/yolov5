@@ -241,7 +241,7 @@ def run(weights='yolov5s.pt',  # model.pt path(s)
 
     print(f'Done. ({time.time() - t0:.3f}s)')
 
-
+#parsing optional
 def parse_opt():
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', nargs='+', type=str, default='yolov5s.pb', help='model.pt path(s)')
